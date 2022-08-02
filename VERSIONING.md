@@ -1,4 +1,4 @@
-# pre-release 0.0
+# 0.0 pre-release
 
 ## 0.1 Adds Google Colab running Carla
 
@@ -7,3 +7,5 @@
 ## 0.5 Adds separate instance of computer-vision software/algorithm
 
 ## 0.7 Adds ...
+
+# 1.0 Everything works!
