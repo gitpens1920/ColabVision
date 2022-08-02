@@ -16,5 +16,7 @@ I am primarily running a W11 machine and Ubuntu.
 
 ## Test 1: Google Colab up and running
 [] Validate that CloudFlare tunneling is need OR is there a different path to TurboVNC Viewer work...(not a huge fan of sourceforge).
+
 [] Install cloudflared
+
 [] Consider using Colab and AWS: https://aws.amazon.com/ec2/spot/ (interesting cost advantage and no local installation of SW!!)
