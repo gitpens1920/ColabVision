@@ -36,7 +36,7 @@ names: ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 't
         'hair drier', 'toothbrush']  # class names
 ```
 
-The classes added look like:
+The classes added:
 
 ```yaml 
 # number of classes
