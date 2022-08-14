@@ -18,12 +18,19 @@ The project will primarially utilize python for algorithms and to get the Colab 
 I am primarily running a W11 machine and Ubuntu.
 
 [X] Test: Google Colab up and running
+
 [X] Test: Image detection model
+
 [X] Test: AWS Ubuntu free tier
+
 [] Test: AWS Ubuntu Carla running
+
 [] Test: AWS Ubuntu VPC to Google Colab (SSH most likely)
+
 [] Test: AWS Ubuntu Image Recognition model
+
 [] Test: AWS Ubuntu Carla to AWS Ubuntu Image Recognition model running (SSH most likely)
+
 
 # Test Results
 [Local Testing - image recognition testing](https://github.com/gitpens1920/ColabVision/tree/main/test)
