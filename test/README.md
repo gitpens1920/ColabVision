@@ -43,12 +43,12 @@ The classes added look like:
 nc: 6
 
 # class names 0           1              2                3            4               5
-names: ["walking light",
-        "green light",
-        "traffic light",
-        "red light",
-        "yellow light",
-        "timer light"]
+names: ["walking_light",
+        "green_light",
+        "traffic_light",
+        "red_light",
+        "yellow_light",
+        "timer_light"]
 ```
 
 It was an unfortunate miss of the "traffic light" class in the original yolo model. Given there was not a large training and validation image set used, the confidence/output from the training I performed at [image test results](./test_results_imgs/) and [video results](./test_results_video/). The traffic light confidence and weighting that the yolov5 provided is significantly more defined than the model I provided. Given enough time, I could categorize, define, and train on a larger dataset, but it does not provide signficant benefit given the current models (more than adequate) capability. For the purpose of a proof of concept traffic light recognition system is therefore completed.
