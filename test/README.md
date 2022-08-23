@@ -3,7 +3,7 @@
 The model is based off a YOLO, more specifically YOLOv5 from:
 - https://github.com/fcakyon/yolov5-pip
 
-A yolo based model was selected for the speed and what appeared to me (at the time) to be a well documented description of what the multiple layers and architecture. The yolov5 package offered very quick turn around time for training, verification, and eventually video testing. 
+A yolo based model was selected for the speed and what appeared to me (at the time) to be a well documented description of what the multiple layers and architecture is. The yolov5 package offered very quick turn around time for image training, verification, and even video testing. 
 
 # Verification Testing
 
