@@ -10,7 +10,8 @@ Short answer
 Basic steps:
 1. Install CARLA packages on server
 
-This requires ~17GB of space and ultimately will be very RAM intensive when running. A micro server will download and install it, but will not be able to run the SW without significant lag.
+> This requires ~17GB of space and ultimately will be very RAM intensive when running. A micro server will download and install it, but will not be able to run the SW without significant lag.
+> start byobu, split screen run htop in lower screen to see usage (just for kicks)
 
 2. Install the remote server packages
 
