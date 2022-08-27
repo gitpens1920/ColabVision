@@ -12,6 +12,7 @@ OR - https://aws.amazon.com/marketplace/pp/prodview-vkoypmw6w3ta2?ref=recommende
 ![image](https://user-images.githubusercontent.com/99305660/187033191-f065fe0a-14ba-4b10-a41b-0d48e1439c73.png)
 
 3. Start and test Ubuntu gui
+
 The byobu terminal interface provides some benefits when working with the EC2 instance via SSH. 
 
 > I've found using a VNC application to be the easiest for managing the logins and workflow (so to speak). 
@@ -82,4 +83,4 @@ gnome-terminal &
 Log into the server checkout the new instance!
 
 4. Install Carla on larger "SPOT" Ubuntu instance. 
-5. 
+ 
