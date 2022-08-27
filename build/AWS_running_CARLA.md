@@ -1,4 +1,4 @@
-# Start E2C instance
+# Start E2C instance (circa Fall22)
 
 **As described in https://github.com/jbnunn/CARLADesktop, start with:
 
@@ -26,14 +26,29 @@ https://ubuntu.com/tutorials/ubuntu-desktop-aws#2-setting-up-tightvnc-on-aws
 https://lubuntu.me/
 
 ```bash
- sudo apt update
- sudo apt install --no-install-recommends lubuntu-desktop
- sudo apt install tightvncserver
- sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
- 
- vncserver :1
- vim ~/.vnc/xstartup
+sudo apt update
+sudo apt install --no-install-recommends lubuntu-desktop
+sudo apt install tightvncserver
 ```
+
+Setup the destkop
+```
+sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+```
+or 
+
+```
+sudo apt-get install -y ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal xfce4 xterm
+export DEBIAN_FRONTEND=noninteractive
+```
+complete the server setup:
+
+```
+vncserver :1
+vim ~/.vnc/xstartup
+```
+and alternative setup
+
 
 In the VIM editor use keys
 - "i" to enter the insert text mode
