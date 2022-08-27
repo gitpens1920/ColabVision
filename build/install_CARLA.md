@@ -17,6 +17,12 @@ Basic steps:
 
 ## Install CARLA 
 
+### Install SW pre-reqs 
+
+Carla requires an UNREAL engine to run. Follow the installation steps here or it will be a very painful process to troubleshoot...
+https://carla.readthedocs.io/en/latest/build_linux/#software-requirements
+
+### Install the CARLA packages
 Follow the instruction here
 
 https://carla.readthedocs.io/en/latest/start_quickstart/#a-debian-carla-installation
