@@ -80,7 +80,10 @@ nautilus &
 gnome-terminal &
 ```
 
-Log into the server checkout the new instance!
+Reboot the server and log into the server checkout the new instance after restarting the VNC and setting the graphical display settings with geometry: 
+```
+vncserver -geometry 1920x1080 :1
+```
 
 4. Install Carla on larger "SPOT" Ubuntu instance. 
  
