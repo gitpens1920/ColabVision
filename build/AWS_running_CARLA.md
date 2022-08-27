@@ -12,6 +12,7 @@ OR - https://aws.amazon.com/marketplace/pp/prodview-vkoypmw6w3ta2?ref=recommende
 ![image](https://user-images.githubusercontent.com/99305660/187033191-f065fe0a-14ba-4b10-a41b-0d48e1439c73.png)
 
 3. Start and test Ubuntu gui
+The byobu terminal interface provides some benefits when working with the EC2 instance via SSH. 
 
 > I've found using a VNC application to be the easiest for managing the logins and workflow (so to speak). 
 > Remmina or Nomachine have worked well. If the local client is Ubuntu (v18 or above I believe), Remmina is pre-installed. 
@@ -31,17 +32,19 @@ sudo apt install --no-install-recommends lubuntu-desktop
 sudo apt install tightvncserver
 ```
 
-Setup the destkop
+Run one of the below commands to setup the destkop (a lighter less intensive desktop) ~700MB
 ```
 sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 ```
-or 
-
+or a desktop aligned to the standard 20.LTS version of ubuntu ~1.4GB
 ```
 sudo apt-get install -y ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal xfce4 xterm
 export DEBIAN_FRONTEND=noninteractive
 ```
-complete the server setup:
+
+If opting for the larger installation
+
+complete the server setup you do not need to run the vnc and vim command below.
 
 ```
 vncserver :1
