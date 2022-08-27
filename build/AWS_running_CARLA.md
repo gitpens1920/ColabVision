@@ -84,4 +84,4 @@ Log into the server checkout the new instance!
 
 4. Install Carla on larger "SPOT" Ubuntu instance. 
  
-   [Installing CARLA on AWS instance](./build/install_CARLA.md)
+   [Installing CARLA on AWS instance](./install_CARLA.md)
