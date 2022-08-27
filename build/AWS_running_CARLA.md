@@ -84,4 +84,4 @@ Log into the server checkout the new instance!
 
 4. Install Carla on larger "SPOT" Ubuntu instance. 
  
- [Installation onf EC2 instance](https://github.com/gitpens1920/ColabVision/new/main/build)
+   [Installing CARLA on AWS instance](./build/install_CARLA.md)
