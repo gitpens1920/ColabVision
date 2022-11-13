@@ -19,17 +19,19 @@ I am primarily running a W11 machine and Ubuntu.
 
 [X] Test: Google Colab up and running
 
+- [Not achieved] External connection to Colab...
+
 [X] Test: Image detection model
 
 [X] Test: AWS Ubuntu free tier
 
-[] Test: AWS Ubuntu Carla running
+[Acheived - not video output] Test: AWS Ubuntu Carla running
 
-[] Test: AWS Ubuntu VPC to Google Colab (SSH most likely)
+[Not achieved] Test: AWS Ubuntu VPC to Google Colab (SSH most likely)
 
-[] Test: AWS Ubuntu Image Recognition model
+[N/A] Test: AWS Ubuntu Image Recognition model
 
-[] Test: AWS Ubuntu Carla to AWS Ubuntu Image Recognition model running (SSH most likely)
+[N/A] Test: AWS Ubuntu Carla to AWS Ubuntu Image Recognition model running (SSH most likely)
 
 
 # Test Results
